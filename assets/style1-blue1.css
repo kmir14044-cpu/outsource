@@ -1398,7 +1398,7 @@ textarea:focus {
 .footer a,
 .footer span,
 .site-footer p,
-/* .site-footer a, */
+.site-footer a,
 .site-footer small {
   color: rgba(255, 255, 255, .74)
 }
@@ -3299,6 +3299,10 @@ body .footer .footer-links{
   color:var(--accent)!important;
    transform:scale(1.05) !important;
 }
+.m:hover{
+ background:#e0d3d3 !important;
+  color:var(--accent)!important;
+   transform:scale(1.05) !important;}
 /* .proof-card .proof-img{
   width:100vw !important;
   height:100vh !important;
