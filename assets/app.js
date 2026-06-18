@@ -22,7 +22,24 @@ const orbitStates = [
   { progress: "75", angle: "180deg" },
   { progress: "100", angle: "270deg" }
 ];
+document.querySelector('.brand')?.addEventListener('click', function(e){
 
+  this.classList.add('logo-pop');
+
+  setTimeout(()=>{
+    this.classList.remove('logo-pop');
+  },400);
+
+});
+document.querySelector('.nav-cta')?.addEventListener('click', function(){
+
+  this.classList.add('btn-pop');
+
+  setTimeout(()=>{
+    this.classList.remove('btn-pop');
+  },300);
+
+});
 function setHeaderState() {
   if (header) header.classList.toggle("is-scrolled", window.scrollY > 16);
 }
