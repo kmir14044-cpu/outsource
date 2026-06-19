@@ -26,16 +26,30 @@
     <div></div>
     <div></div>
   </div>
-  <header class="site-header" data-header><a class="brand" href="index.html" aria-label="Outsource Mantra home"><img
-        class="logo" src="assets/logo-blue.png" alt="Outsource Mantra logo"></a><button class="nav-toggle" type="button"
-      aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
-    <nav class="site-nav" id="site-nav">
-      <div class="nav-group"><button class="nav-drop" type="button">Solutions</button>
-        <div class="dropdown"><a href="services.html#ai">AI Automation</a><a href="services.html#ux">Premium UI/UX
-            Design</a><a href="services.html#build">Build & Integrate</a></div>
-      </div><a href="about.html">About Us</a><a href="work.html">Case Studies</a>
-    </nav><a class="btn btn-primary nav-cta" href="contact.html">Get in Touch</a>
+  <header class="site-header" data-header>
+    <a class="brand" href="index.html" aria-label="Outsource Mantra home"><img class="logo" src="assets/logo-blue.png"
+        alt="Outsource Mantra logo"></a>
+    <button class="nav-toggle" type="button" aria-expanded="false"
+      aria-controls="site-nav"><span></span><span></span><span></span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+      <div class="nav-group">
+        <button class="nav-drop" type="button" aria-expanded="false">Solutions <svg class="nav-chevron" width="16"
+            height="16" viewBox="0 0 24 24" fill="none">
+            <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg></button>
+        <div class="dropdown">
+          <a href="services.html#ai">AI Automation</a>
+          <a href="services.html#ux">Premium UI/UX Design</a>
+          <a href="services.html#build">Build & Integrate</a>
+        </div>
+      </div>
+      <a href="about.html">About Us</a>
+      <a href="work.html">Case Studies</a>
+    </nav>
+    <a class="btn btn-primary nav-cta" href="contact.html">Get in Touch</a>
   </header>
+
   <main>
     
     <section class="contact-section">
@@ -61,8 +75,7 @@
         <form class="contact-form" action="mailto:info@outsourcemantra.com" method="post" enctype="text/plain">
           <h3>Drop Your Message</h3><label>Name <input name="name" autocomplete="name" required /></label><label>Email
             <input type="email" name="email" autocomplete="email" required /></label><label>Message <textarea
-              name="message" rows="5" required></textarea></label><button class="btn btn-primary" type="submit">Let's
-            Talk</button>
+              name="message" rows="5" required></textarea></label><button class="btn btn-primary" type="submit">Get in Touch</button>
         </form>
       </div>
     </section>
